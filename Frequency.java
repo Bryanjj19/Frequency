@@ -34,7 +34,7 @@ public class Frequency{
     }   
     System.out.println("\nTotal number of characters in file: " + total + "\n");
     //Gives the probability of the letter in the file
-    System.out.println("Probability of each character appearing listed below rounded to two decimal places of accuracy: " + "\n");
+    System.out.println("Probability of each character appearing listed below:" + "\n");
     for(int i = 0; i < count.length; i++){
       System.out.print((char)(i + 'A') + " ");
       double unroundedNumber = (double)count[i] / total;
